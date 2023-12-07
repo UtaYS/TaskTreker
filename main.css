@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+    font-family:'Manrope', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+/*Header*/
+.header{
+    border-bottom: 1px solid #e5e9f2;
+    height: 73px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container{
+ width: 1110px;
+    margin: auto;
+ display: flex;
+    align-items: center;
+}
+
+.logo{
+margin-right: 40px;
+
+}
+
+img{
+    display: block;
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.appstore{
+    margin-left: auto;
+}
+
+.nav{
+    font-weight: bold;
+    margin-top: -4px;
+    font-size: 14px;
+    line-height: 1;
+    color: #18191f;
+}
+
+.nav-link{
+    color: #18191f;
+    text-decoration: none;
+    margin-right: 32px;
+}
+
+.nav-link:last-child{
+    margin-right: 0;
+}
+
+.nav-link:hover{
+    color: #8c30f5;
+}
+
+/*Main*/
+
+.main{
+
+}
+
+.main-container{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 197px;
+    padding-bottom: 197px;
+    align-items: center;
+}
+
+.main-content{
+    font-size: 18px;
+    width: 540px;
+}
+
+.main-img{
+
+}
+.main-header{
+
+  font-weight: 800;
+   margin-top: 0;
+    font-size: 72px;
+    line-height: 1.36;
+    color: #18191f;
+}
+
+.main-text p{
+    margin-bottom: 15px;
+font-size: 18px;
+    line-height: 1.78;
+}
+.main-text{
+    margin-bottom: 32px;
+}
+.button{
+display: inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 62px;
+    background: #8c30f5;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 62px;
+    text-align: center;
+    color: #e5e9f2;
+    text-decoration: none;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+/*footer*/
+.footer{
+background: #18191f;
+    height: 72px;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+}
+
+.footer-container{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright{
+    font-size: 14px;
+}
+
+.footer-socials{
+display: flex;
+}
+
+.footer-socials-item{
+    margin-left: 16px;
+}
